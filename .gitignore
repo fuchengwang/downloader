@@ -1,6 +1,7 @@
 *.pem
 **/node_modules
 .DS_Store
+*.crx
 __pycache__/
 *.py[cod]
 *$py.class
