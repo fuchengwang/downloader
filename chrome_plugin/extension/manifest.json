@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "下载链接捕捉器",
+    "version": "1.1",
+    "description": "截获下载链接和请求头，让你选择如何处理",
+    "permissions": [
+        "downloads",
+        "offscreen",
+        "clipboardWrite",
+        "nativeMessaging",
+        "webRequest",
+        "cookies"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_title": "下载链接捕捉器"
+    }
+}

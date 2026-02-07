@@ -1,0 +1,14 @@
+*.pem
+**/node_modules
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+*.aria2
